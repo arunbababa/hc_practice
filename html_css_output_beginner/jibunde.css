@@ -13,33 +13,27 @@
         gap: 10px;
     }
 
-    .box1{
+    header {
         padding-top: 60px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
-    .box1 p{
-        margin: auto;
-        font-size: 12px;
-    }
-
-    .box1 .self-intro{
-        margin-left: 15px;
-        padding-top: 5px;
-    }
-
-    .box1 .profile{
-        margin-right: 10px;
-        padding-top: 5px;
-    }
-
-    .box1 .resume{
+    header .resume {
         background: rgb(22, 19, 52);
         padding: 7px 15px;
         color: white;
         font-size: 20px;
         font-weight: bold;
+    }
+
+    header .right-contents {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    header .self-intro {
+        margin-right: 15px;
     }
 
     .box2{
@@ -133,30 +127,30 @@
         gap: 10px;
     }
 
-    .box1{
+    header {
         grid-column: 2;
         grid-row: 1;
+        display: flex;
         justify-content: space-between;
     }
 
-    .box1 {
+    header .right-contents {
         display: flex;
     }
 
-    .box1 .resume{
+    header .right-contents p {
+        margin-top: 15px;
+    }
+
+    header .resume {
         background: rgb(22, 19, 52);
         padding: 10px 10px;
         color: white;
         font-size: 20px;
     }
 
-    .box1 .self-intro{
-        padding-left: 600px;
-        margin-top: 15px;
-    }
-
-    .box1 .profile{
-        margin-top: 15px;
+    header .self-intro {
+        margin-right: 15px;
     }
 
     .box2{
