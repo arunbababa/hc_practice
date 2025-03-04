@@ -36,50 +36,49 @@
         margin-right: 15px;
     }
 
-    .box2{
-        background: blue;
+    .main-image{
         width: 100%;
         height: 600px;
     }
 
-    .box2 img{
+    .main-image img{
         width: 100%;
         height: 100%;
     }
 
-    .box3{
+    .introduction{
         text-align: center;
         margin-top: 80px;
     }
 
-    .box3 h2{
+    .introduction h2{
         text-decoration: underline solid 1px;
         text-underline-offset: 10px;
         margin-bottom: 40px;
         font-size: 35px;
     }
 
-    .box3 h3{
+    .introduction h3{
         padding-bottom: 6px;
     }
 
-    .box3 p{
+    .introduction p{
         text-align: left;
         padding-bottom: 13px;
     }
 
-    .box3 img{
+    .introduction img{
         border-radius: 50%;
         width: 110px;
         height: 110px;
     }
 
-    .box4{
+    .profile-gallery{
         margin-top: 70px;
         text-align: center;
     }
 
-    .box4 h2 {
+    .profile-gallery h2 {
         text-decoration: underline solid 1px;
         text-underline-offset: 10px;
         margin-bottom: 20px;
@@ -87,15 +86,15 @@
         margin-bottom: 60px;
     }
 
-    .box4 h3{
+    .profile-gallery h3{
         margin-bottom: 10px;
     }
 
-    .box4 p{
+    .profile-gallery p{
         margin-bottom: 10px;
     }
 
-    .box4 img{
+    .profile-gallery img{
         width: 100%;
         height: 100%;
         margin-bottom: 10px;
@@ -153,77 +152,77 @@
         margin-right: 15px;
     }
 
-    .box2{
+    .main-image{
         grid-column: 1/4;
         grid-row: 2;
         background: blue;
         margin-bottom: 40px;
     }
 
-    .box2 img{
+    .main-image img{
         width: 100%;
         height: 100%;
     }
 
-    .box3{
+    .introduction{
         grid-column: 2;
         grid-row: 3;
         text-align: center;
         margin-bottom: 70px;
     }
 
-    .box3 h2{
+    .introduction h2{
         text-decoration: underline;
         text-underline-offset: 10px;
         margin-bottom: 40px;
     }
 
-    .box3 .flex-contents{
+    .introduction .intro-contents{
         display: flex;
         justify-content: center;
         gap: 60px;
     }
 
-    .box3 h3{
+    .introduction h3{
         text-align: left;
     }
 
-    .box3 img{
+    .introduction img{
         border-radius: 50%;
         width: 100px;
         height: 100px;
     }
 
-    .box4{
+    .profile-gallery{
         grid-column: 2;
         grid-row: 4;
     }
 
-    .box4 h2 {
+    .profile-gallery h2 {
         text-align: center;
         text-decoration: underline;
         text-underline-offset: 10px;
         margin-bottom: 20px;
     }   
     
-    .box4 .profiles-container{
+    .profile-gallery .profiles-container{
         display: flex;
         justify-content: space-between;
     }
 
-    .box4 .title{
+    .profile-gallery .profile-item{
         text-align: center;
     }
 
-    .box4 .title h3{
+    .profile-gallery .profile-item h3{
         margin-bottom: 10px;
     }
 
-    .box4 .title p{
+    .profile-gallery .profile-item p{
         margin-bottom: 10px;
     }
 
-    .box4 img{
+    .profile-gallery img{
         width: 95%;
     }
 
