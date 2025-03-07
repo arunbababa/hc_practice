@@ -17,6 +17,7 @@
         padding-top: 60px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     header .resume {
@@ -29,11 +30,7 @@
 
     header .right-contents {
         display: flex;
-        margin-top: 15px;
-    }
-
-    header .self-intro {
-        margin-right: 15px;
+        gap: 15px;
     }
 
     .main-image{
@@ -81,7 +78,6 @@
     .profile-gallery h2 {
         text-decoration: underline solid 1px;
         text-underline-offset: 10px;
-        margin-bottom: 20px;
         font-size: 30px;
         margin-bottom: 60px;
     }
@@ -131,14 +127,12 @@
         grid-row: 1;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     header .right-contents {
         display: flex;
-    }
-
-    header .right-contents p {
-        margin-top: 15px;
+        gap: 35px;
     }
 
     header .resume {
@@ -146,10 +140,6 @@
         padding: 10px 10px;
         color: white;
         font-size: 20px;
-    }
-
-    header .self-intro {
-        margin-right: 15px;
     }
 
     .main-image{
