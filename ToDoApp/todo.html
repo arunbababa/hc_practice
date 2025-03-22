@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ToDoアプリ</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="input-container">
+            <h1>ToDoアプリ</h1>
+            <input id="todo-input" type="text" placeholder="タスクを入力" />
+            <button id="add-btn">追加</button>
+        </div>
+        <div id="task-status-container">
+            <div class="status"><span id="all">全てのTodo:</span></div>
+            <div class="status"><span id="done">完了済みのTodo:</span></div>
+            <div class="status"><span id="yet">未完了のTodo:</span></div>
+        </div>
+    </div>
+    <ul id="todo-list">
+        
+    </ul>
+
+
+    <div id="confirm-modal" class="modal hidden">
+        <div class="modal-content">
+            <p>本当に削除してもよろしいですか？</p>
+            <button id="modal-ok">OK</button>
+            <button id="modal-cancel">キャンセル</button>
+        </div>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+#container {
+    display: flex;
+}
+
+.status {
+    margin: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
